@@ -1,0 +1,39 @@
+header {
+    display:flex;
+    justify-content: space-between;
+}
+.logo {
+    color: blue;
+}
+.navi {
+    display: flex;
+}
+.item {
+    list-style: none;
+    margin-left: 20px;
+}
+.a {
+    text-decoration: none;
+}
+.img {
+    position: absolute;
+    width: 50%;
+    top: 100px;
+    right: 0;
+    z-index: 10;
+}
+.title {
+    font-size: 80px;
+    position: absolute;
+    left: 0;
+    bottom: 150px;
+}
+.blue-box {
+    background-color:blue;
+    width: 60vw;
+    height: 200px;
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+    z-index: 0;
+}
