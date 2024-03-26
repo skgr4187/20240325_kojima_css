@@ -7,20 +7,23 @@ header {
 }
 .navi {
     display: flex;
+    position: absolute;
+    right: 20px;
 }
 .item {
     list-style: none;
     margin-left: 20px;
 }
-.a {
+.link {
     text-decoration: none;
 }
 .img {
     position: absolute;
-    width: 50%;
     top: 100px;
     right: 0;
     z-index: 10;
+    width: 40%;
+    height: auto;
 }
 .title {
     font-size: 80px;
@@ -30,7 +33,7 @@ header {
 }
 .blue-box {
     background-color:blue;
-    width: 60vw;
+    width: 70vw;
     height: 200px;
     position: absolute;
     left: 0;
