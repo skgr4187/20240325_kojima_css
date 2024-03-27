@@ -17,24 +17,22 @@ header {
 .link {
     text-decoration: none;
 }
-.div {
-    width: 1000px;
-    position: relative;
-}
-.img {
-    width: 40%;
+.image-container {
+    width: 100%;
     height: auto;
-    z-index: 10;
-    position: absolute;
-    top: 200px;
-    right: 0;
 }
-
+img {
+    width: 50%;
+    position: absolute;
+    bottom: 200px;
+    right: 0;
+    z-index: 10;
+}
 .title {
-    font-size: 80px;
+    font-size: 70px;
     position: absolute;
     left: 0;
-    bottom: 150px;
+    bottom: 160px;
 }
 .blue-box {
     background-color:blue;
